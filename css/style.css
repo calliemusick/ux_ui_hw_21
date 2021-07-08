@@ -1,0 +1,438 @@
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+body {
+    background-color: #F2ECE4;
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family:'Mulish', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: .2px;
+    line-height: 40px;
+}
+
+h2 {
+    font-family:'Mulish', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: .1px;
+    line-height: 24px;
+}
+
+h3 {
+    font-family:'Mulish', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: .1px;
+    line-height: 40px;
+}
+
+p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navigationContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoAndList {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.DonateandSearch {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.theProblem {
+    display: flex;
+    flex-direction: column;
+}
+
+.theProblem > div {
+    margin-bottom: 50px;
+}
+
+.theProblemHeader {
+    display: flex;
+    flex-flow: column;
+    padding: 30px;
+}
+
+.theProblemHeader img {
+    width: 800px;
+    margin-left: 80px;
+    justify-content: center;
+}
+
+.theProblemHeader h3 {
+    margin-top: -150px
+}
+
+.theProblemHeader p {
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.stats {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.stats p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.stats div {
+    width: 23%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.stats img {
+    height: 70px;
+}
+
+.theProblemCTA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.theProblemCTA div {
+    width: 60%;
+}
+
+.theProblemCTA p {
+    line-height: 35px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.theProblemCTA img {
+    width: 3%;
+    padding: 10px;
+    margin-left: -185px;
+    margin-bottom: -22px;
+    position: relative;
+}
+
+header img {
+    width: 30%;
+}
+
+.topNavLinks {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-inline-start: 0;
+}
+
+.navContainer {
+    display: flex;
+    flex-grow: 1;
+}
+
+nav li:hover {
+    font-weight: bold;
+}
+
+.getInvolvedLi {
+    margin-right: -30px;
+}
+
+.getInvolvedLi a {
+    padding: 5px;
+}
+
+#navArrow {
+    width: 10%;
+    height: 50%;
+    padding: 0px;
+}
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 5px;
+    background-color: #272523;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+    border-right: solid .5px #F2ECE4;
+    border-left: solid .5px #F2ECE4;
+    border-bottom: solid .5px #F2ECE4;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #2A666C}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+#searchButton {
+    background-color: #F2ECE4;
+    border: none;
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+}
+
+.heroContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.heroContainer img {
+    width: 70%;
+}
+
+.heroContent {
+    flex-direction: column;
+    z-index: 2;
+}
+
+.heroContent img {
+    width: 100%;
+    margin-left: -120px;
+    margin-bottom: -60px;
+    height: 330px;
+    width: 552px;
+}
+
+.heroContent h1 {
+    margin-top: -75px;
+}
+
+.theProblem {
+    background-color: #2A666C;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    margin-top: -5px;
+}
+
+a {
+    color: #272523;
+    text-decoration: none;
+}
+ul {
+    font-size: 12px;
+    color: #272523;
+}
+header li {
+    color: #272523; 
+    text-decoration: none;
+  }
+
+.blackButton {  
+    border: none;
+    top: 15px;
+    background-color: #272523;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    letter-spacing: 5px;
+    font-variant-caps: all-small-caps;
+ }
+
+.ourWorkButton {
+    border: none;
+    top: 15px;
+    background-color: #272523;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    letter-spacing: 5px;
+    font-variant-caps: all-small-caps;
+}
+
+ .blackButton:hover { 
+     background-color: #2A666C;
+     color: white;
+ }
+
+ .FooterNavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 80%;
+}
+
+
+footer {
+    background-color: #C1D8D7;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialButtons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.socialButtons button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.socialButton {
+    display: inherit;
+    border: none;
+    background-color: #C1D8D7;
+    width: 60px;
+    height: 50px;
+    font-family: 'Mulish', sans-serif;
+    color: #272523;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    font-variant-caps: all-small-caps;
+}
+
+#facebookBtn img {
+    width: 18px;
+    height: 33px;
+}
+
+#twitterBtn img {
+    width: 38px;
+    height: 32px;
+}
+
+#instagramBtn img {
+    width: 32px;
+    height: 32px;
+}
+
+.wideList li {
+    width: 150px;
+}
+
+.contactInfo p {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+hr {
+    color: #272523;
+    border: none;
+    height: .25px;
+    background-color:#272523; 
+    border-color:transparent;
+    width: 78%;
+    margin-top: 25px;
+}
+
+.footerDonateBtn {
+    text-decoration: none;
+    margin-bottom: 5px
+}
+
+
+footer ul {
+    color: #272523; 
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+footer li {
+    text-decoration: underline;
+    overflow-wrap: normal;
+    width: 100px;
+}
+
+footer p {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.contact {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact img {
+    height: 80px;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.listContainer ul {
+    margin-top: 0;
+}
+
+

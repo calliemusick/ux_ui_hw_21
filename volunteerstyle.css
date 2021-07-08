@@ -1,0 +1,157 @@
+.nav-link {
+    color: #272523;
+    font-size: 12px;
+}
+
+.nav-link:hover {
+   color: #272523;
+}
+
+.navBar {
+    background-color: #f2ece4;
+}
+
+.navBar li:hover {
+    font-weight: bold;
+    color: #272523 !important;
+}
+
+.dropdown-toggle {
+    font-weight: bold;
+}
+
+.nav-pills .nav-item{
+    padding-top: 20px;
+}
+
+body {
+    background-color: #F2ECE4;
+    font-family: 'Mulish', sans-serif;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.dropdown-item {
+    background-color: #272523;
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.dropdown-menu {
+    padding: 0px;
+}
+
+.btn-black {
+    background-color: #272523;
+    color: white; 
+    border: none;
+    top: 15px;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    letter-spacing: 5px;
+    font-variant-caps: all-small-caps;
+}
+
+.btn-white {
+    background-color: white; 
+    border: none;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    letter-spacing: 5px;
+    font-variant-caps: all-small-caps;
+}
+
+.btn-black:hover { 
+    background-color: #2A666C;
+    color: white;
+}
+
+.search-btn img {
+    width: 20%;
+}
+
+.description {
+    background-color: #f2ece4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.open-position-info {
+    padding-top: 20px;
+    color: white;
+}
+
+.information {
+    background-color: #2a666c;
+    margin-bottom: -50px;
+}
+
+.opp-row {
+    padding: 10px;
+}
+
+.opportunity {
+    background-color: #c1d8d7;
+    padding: 39px;
+    font-size: 16px;
+}
+
+.last-opportunity {
+    margin-bottom: 50px;
+}
+
+.last-opportunity .opportunity {
+    background-color: #f2ece4;
+}
+
+.testimonial {
+    text-align: center;
+}
+
+.testimonial button {
+    width: 300px;
+    position: relative;
+    margin-top: -175px;
+    z-index: +1;
+}
+
+.footer {
+    background-color: #c1d8d7;
+    padding-top: 15px;
+    margin-top: -25px;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer li a {
+    color: black;
+}
+
+.social-image {
+    height: 25px;
+    margin-top: 10px;
+}
+
+.smkc-img {
+    width: 100%;
+}
